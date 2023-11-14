@@ -1,0 +1,37 @@
+---
+canvas: "https://www.digitalcollections.manchester.ac.uk/iiif/PR-R-52983-00002/canvas/1"
+order: 3
+---
+{
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "On 16 August 1819, a radical meeting of around 60,000 people at St. Peter\u2019s Field, Manchester was violently suppressed by the Government.",
+            "purpose": "commenting",
+            "creator": {
+                "id": "beacrossley",
+                "name": "beacrossley"
+            },
+            "created": "2023-11-14T11:47:32.123Z"
+        }
+    ],
+    "target": {
+        "source": {
+            "partOf": {
+                "id": "https://www.digitalcollections.manchester.ac.uk/iiif/PR-R-52983-00002",
+                "type": "Manifest"
+            },
+            "id": "https://www.digitalcollections.manchester.ac.uk/iiif/PR-R-52983-00002/canvas/1",
+            "type": "Canvas"
+        },
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=936.7874145507812,4553.5,4804.402038574219,591.40478515625"
+        }
+    },
+    "id": "36658c0c-ea51-498d-9767-9406df0f6dac.json",
+    "motivation": "commenting"
+}
