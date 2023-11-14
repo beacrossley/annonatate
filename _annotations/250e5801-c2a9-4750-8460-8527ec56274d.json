@@ -1,0 +1,38 @@
+---
+canvas: "https://www.digitalcollections.manchester.ac.uk/iiif/PR-R-52983-00002/canvas/1"
+order: 2
+---
+{
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "woman at the centre",
+            "purpose": "commenting",
+            "creator": {
+                "id": "beacrossley",
+                "name": "beacrossley"
+            },
+            "created": "2023-11-14T11:42:39.328Z",
+            "modified": "2023-11-14T11:42:43.160Z"
+        }
+    ],
+    "target": {
+        "source": {
+            "partOf": {
+                "id": "https://www.digitalcollections.manchester.ac.uk/iiif/PR-R-52983-00002",
+                "type": "Manifest"
+            },
+            "id": "https://www.digitalcollections.manchester.ac.uk/iiif/PR-R-52983-00002/canvas/1",
+            "type": "Canvas"
+        },
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=3861.078125,2461.7080078125,216.673828125,630.185791015625"
+        }
+    },
+    "id": "250e5801-c2a9-4750-8460-8527ec56274d.json",
+    "motivation": "commenting"
+}
