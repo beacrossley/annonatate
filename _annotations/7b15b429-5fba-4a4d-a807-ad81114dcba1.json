@@ -1,0 +1,38 @@
+---
+canvas: "https://www.digitalcollections.manchester.ac.uk/iiif/PR-R-52983-00002/canvas/1"
+order: 1
+---
+{
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "big house ",
+            "purpose": "commenting",
+            "creator": {
+                "id": "beacrossley",
+                "name": "beacrossley"
+            },
+            "created": "2023-11-14T11:42:09.503Z",
+            "modified": "2023-11-14T11:42:10.528Z"
+        }
+    ],
+    "target": {
+        "source": {
+            "partOf": {
+                "id": "https://www.digitalcollections.manchester.ac.uk/iiif/PR-R-52983-00002",
+                "type": "Manifest"
+            },
+            "id": "https://www.digitalcollections.manchester.ac.uk/iiif/PR-R-52983-00002/canvas/1",
+            "type": "Canvas"
+        },
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=1645.4049072265625,2141.739013671875,940.6820068359375,717.919677734375"
+        }
+    },
+    "id": "7b15b429-5fba-4a4d-a807-ad81114dcba1.json",
+    "motivation": "commenting"
+}
